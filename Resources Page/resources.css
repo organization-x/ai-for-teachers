@@ -1,8 +1,92 @@
-/* Temporary, will be done later */
+body {
+    background-color: #18BD63;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
-    color:blue;
+    font-size: 600%;
+    margin: 50px;
+    text-align: center;
+}
+
+ol {
+    display: none;
+}
+
+h2 {
+    cursor: pointer;
+    font-size: 400%;
+    margin: 5px;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
 }
 
 p {
-    color:green;
+    margin-top: 2px;
+    font-weight: 500;
+    color: #446444;
+}
+
+img {
+    cursor: pointer;
+    width:20%;
+    height: 30%;
+    border: 5px black solid;
+    border-radius: 5px;
+}
+
+li {
+    font-size: 130%;
+    padding: 0px;
+    font-weight: bolder;
+}
+
+a {
+    color: rgb(3, 75, 3);
+}
+
+h4 {
+    color: rgb(3, 75, 3);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.toggle-button {
+    border: 4px solid darkgreen;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+    display:block;
+    padding: 20px;
+}
+
+.header {
+    display:flex;
+    margin-bottom: 10px;
+}
+
+#tool {
+    text-align: center;
+    font-size: 400%;
+    margin: 25px;
+}
+
+#toolContainer{
+    border: 4px solid darkgreen;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 30px;
+    display:block;
+    padding: 5px;
+}
+
+#link {
+    font-size: 130%;
+}
+
+#caption {
+    font-size: 200%;
+    margin: 0px;
 }
